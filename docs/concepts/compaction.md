@@ -266,5 +266,6 @@ For advanced configuration (reserve tokens, identifier preservation, custom cont
 - [Session pruning](/concepts/session-pruning): trimming tool results.
 - [Context](/concepts/context): how context is built for agent turns.
 - [Context engines](/concepts/context-engine): pluggable context assembly.
-- [Hooks](/automation/hooks#event-types): internal compaction events (`session:compact:before`, `session:compact:after`).
+- [Hooks](/automation/hooks/event-types): internal compaction events (`session:compact:before`, `session:compact:after`).
 - [Plugin hooks](/plugins/hooks/reference#hook-catalog): typed compaction hooks (`before_compaction`, `after_compaction`).
+- [Goal](/tools/goal) — durable per-session objectives and the `/goal` controls
